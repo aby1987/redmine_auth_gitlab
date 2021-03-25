@@ -14,5 +14,5 @@ Redmine::Plugin.register :redmine_auth_gitlab do
     :client_secret => "",
     :oauth_autentification => false,
     :allowed_domains => ""
-  }, :partial => 'settings/gitlab_settings'
+  }, :partial => 'settings/gitlab_oauth2_settings'
 end
